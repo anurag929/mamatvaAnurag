@@ -1,0 +1,53 @@
+body {
+  background: rgb(66, 66, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 44px;
+  text-align: center;
+  color: aliceblue;
+}
+.description {
+  transition: 0.9s ease-in-out;
+}
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+@import url(https://fonts.googleapis.com/css?family=Saira+Stencil+One);
+
+/* Base */
+
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-weight: 400;
+  font-size: 28vw;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  mix-blend-mode: screen;
+}
